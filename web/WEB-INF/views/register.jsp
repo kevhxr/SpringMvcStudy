@@ -2,19 +2,15 @@
   Created by IntelliJ IDEA.
   User: huangxr
   Date: 2018/10/20
-  Time: 13:07
+  Time: 13:12
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Spring MVC Study Index Page</title>
+    <title>register page</title>
 </head>
 <body>
-    <a href="springmvc/failend">failend</a>
-    <br><br>
-    <a href="helloWorld">hello world</a>
-    <br><br>
-    <a href="register">register</a>
+    <h2>register user page!</h2>
 </body>
 </html>
