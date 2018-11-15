@@ -3,6 +3,7 @@ package com.hxr.springmvc.handlers;
 import com.hxr.springmvc.models.User;
 import com.hxr.springmvc.models.UserContainer;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -39,6 +40,24 @@ public class LoginController {
     @RequestMapping("/login3")
     public String login3(UserContainer userContainer){
         System.out.println(userContainer);
+        return "success";
+    }
+
+    @RequestMapping("/login4/{passwd}/{name1}")
+    public String login4(@PathVariable("name1")String name,@PathVariable("passwd")String passwd){
+        System.out.println(name+" ffff "+passwd);
+        return "success";
+    }
+
+
+    @RequestMapping("/login5")
+    public String login5(){
+        System.out.println("login5");
+        return "login6";
+    }
+    @RequestMapping("/login6")
+    public String login6(){
+        System.out.println("login6666");
         return "success";
     }
 }

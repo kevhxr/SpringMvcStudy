@@ -39,5 +39,9 @@
     <a href="helloWorld">hello world</a>
     <br><br>
     <a href="register">register</a>
+    <br><br>
+    <a href="springmvc/login4/123/evvv">register4</a>
+    <br><br>
+    <a href="springmvc/login5">register5</a>
 </body>
 </html>
